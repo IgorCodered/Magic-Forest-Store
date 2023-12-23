@@ -1,0 +1,26 @@
+server:
+  port: 9090
+
+spring:
+  main:
+    banner-mode: off
+
+
+  application:
+    name: Magic Forest Store
+  datasource:
+    username: postgres
+    password: Nismava11
+    url: jdbc:postgresql://localhost:5432/magic_forest
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates
+    suffix: .html
