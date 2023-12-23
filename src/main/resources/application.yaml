@@ -4,8 +4,6 @@ server:
 spring:
   main:
     banner-mode: off
-
-
   application:
     name: Magic Forest Store
   datasource:
@@ -19,8 +17,4 @@ spring:
     show-sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-  thymeleaf:
-    cache: false
-    enabled: true
-    prefix: classpath:/templates
-    suffix: .html
+

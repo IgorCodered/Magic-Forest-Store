@@ -2,7 +2,6 @@ package com.magicforest.magicforest.model.entity.products;
 
 
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
